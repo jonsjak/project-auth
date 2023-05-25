@@ -23,7 +23,7 @@ app.get("/", (req, res) => {
   res.send("Hello Auth project!");
 });
 
-const {Schema} = mongoose;
+// const { Schema } = mongoose;
 // userSchema
 const UserSchema = new mongoose.Schema({
   username: {
