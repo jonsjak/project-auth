@@ -4,7 +4,7 @@ import mongoose from "mongoose";
 import crypto from 'crypto';
 import bcrypt from 'bcrypt';
 
-const mongoUrl = process.env.MONGO_URL || "mongodb://localhost/project-auth";
+const mongoUrl = process.env.MONGO_URL || "mongodb://127.0.0.1/project-auth";
 mongoose.connect(mongoUrl, { useNewUrlParser: true, useUnifiedTopology: true });
 mongoose.Promise = Promise;
 
