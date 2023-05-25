@@ -1,7 +1,7 @@
 import React from 'react';
 import { Main } from 'components/Main';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { Login } from 'components/Login';
+import Login from 'components/Login';
 import Register from 'components/Register';
 import { NotFound } from 'components/NotFound';
 import { Provider } from 'react-redux';

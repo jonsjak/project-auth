@@ -13,7 +13,6 @@ const Register = () => {
 
     const handleSubmit = (event) => {
         event.preventDefault();
-        console.log(password);
         const options = {
             method: "POST",
             headers: {
